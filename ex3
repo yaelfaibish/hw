@@ -1,0 +1,8 @@
+l1 = []
+while True:
+    word= input('please enter a word')
+
+    if word in l1:
+        break
+    l1.append(word)
+print(l1)
